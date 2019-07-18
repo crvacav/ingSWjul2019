@@ -1,5 +1,4 @@
 package aplicacion.ing.soft;
-import java.util.Scanner;
 
 public class AplicacionIngSoft {
 
@@ -17,10 +16,7 @@ public class AplicacionIngSoft {
     
     
     public static void main(String[] args) {
-        String Palabra;
-        Scanner Teclado = new Scanner(System.in);
-        System.out.print("Ingrese palabra:  ");
-        Palabra = Teclado.next();
+        String Palabra = "anallevaalosolaavellana";
         
         if (Palindromo(Palabra) == true)
         {
